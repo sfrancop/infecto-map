@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/infecto-map/static/css/main.073c9b0a.css",
+    "main.js": "/infecto-map/static/js/main.7d4fd9ef.js",
+    "static/js/787.c47a0c34.chunk.js": "/infecto-map/static/js/787.c47a0c34.chunk.js",
+    "static/media/logo.svg": "/infecto-map/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/infecto-map/index.html",
+    "main.073c9b0a.css.map": "/infecto-map/static/css/main.073c9b0a.css.map",
+    "main.7d4fd9ef.js.map": "/infecto-map/static/js/main.7d4fd9ef.js.map",
+    "787.c47a0c34.chunk.js.map": "/infecto-map/static/js/787.c47a0c34.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.7d4fd9ef.js"
+  ]
+}
