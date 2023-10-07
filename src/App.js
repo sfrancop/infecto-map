@@ -3,23 +3,47 @@ import data from "./data.json"
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Inicio from "./pages/Inicio"
 import Sistema from "./pages/Sistema"
+import Enfermedad from './pages/Enfermedad';
+import Desarrolladores from './pages/Desarrolladores';
 
 function App() {
-  const enfermedades = data
+  const sistemas = data
   return (
     <div className='app-container'>
-      <HashRouter >
+      <HashRouter>
         <Routes>
-          <Route path="/" element={<Inicio/>} />
-          {
-            enfermedades.map((enfermedad) =>{
-              let ruta = enfermedad.nombre.replace(/\s+/g, "-").toLowerCase();
-              console.log(ruta);
-              return <Route path="/:ruta" element={<Sistema nombre = {enfermedad.nombre} />} />
-            })
-          }
+
+          <Route path="/" element={<Inicio />} />
+
+          <Route path="/desarrolladores" element={<Desarrolladores />} />
+
+          {sistemas.map((sistema) => {
+            let sistemaRuta = sistema.nombre.replace(/\s+/g, "-").toLowerCase();
+            return (
+              <Route
+                key={sistemaRuta}
+                path={"/" + sistemaRuta}
+                element={<Sistema nombre={sistema.nombre} />}
+              />
+            );
+          })}
+
+          {sistemas.map((sistema) => {
+            let sistemaRuta = sistema.nombre.replace(/\s+/g, "-").toLowerCase();
+            return sistema.enfermedades.map((enfermedad) => {
+              let enfermedadRuta = enfermedad.nombre.replace(/\s+/g, "-").toLowerCase();
+              return (
+                <Route
+                  key={sistemaRuta + "-" + enfermedadRuta}
+                  path={"/" + sistemaRuta + "/" + enfermedadRuta}
+                  element={<Enfermedad nombre={enfermedad.nombre} />}
+                />
+              );
+            });
+          })}
+
         </Routes>
-      </HashRouter>
+      </HashRouter>
     </div>
   );
 }
