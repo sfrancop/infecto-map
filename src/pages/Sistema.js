@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function Sistema() {
+export default function Sistema(props) {
   return (
-    <div>Sistema</div>
+    <div>
+      {props.nombre}
+    </div>
   )
 }
