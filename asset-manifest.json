@@ -1,15 +1,13 @@
 {
   "files": {
     "main.css": "/infecto-map/static/css/main.073c9b0a.css",
-    "main.js": "/infecto-map/static/js/main.d475cb80.js",
-    "static/js/787.c47a0c34.chunk.js": "/infecto-map/static/js/787.c47a0c34.chunk.js",
+    "main.js": "/infecto-map/static/js/main.d7d32542.js",
     "index.html": "/infecto-map/index.html",
     "main.073c9b0a.css.map": "/infecto-map/static/css/main.073c9b0a.css.map",
-    "main.d475cb80.js.map": "/infecto-map/static/js/main.d475cb80.js.map",
-    "787.c47a0c34.chunk.js.map": "/infecto-map/static/js/787.c47a0c34.chunk.js.map"
+    "main.d7d32542.js.map": "/infecto-map/static/js/main.d7d32542.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.d475cb80.js"
+    "static/js/main.d7d32542.js"
   ]
 }
