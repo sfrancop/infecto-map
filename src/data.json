@@ -1,4 +1,5 @@
 [
+
     {
         "nombre": "SISTEMA NERVIOSO CENTRAL",
         "enfermedades": [
@@ -12,5 +13,21 @@
                 ]
             }
         ]
+    },
+
+    {
+        "nombre": "SISTEMA RESPIRATORIO",
+        "enfermedades": [
+            {
+                "nombre": "enfermedad-1",
+                "microorganismos": [
+                    {
+                        "nombre": "enfermedad-1-microorganismo-1",
+                        "descripcion": "enfermedad-1-microorganismo-1-descripcion"
+                    }
+                ]
+            }
+        ]
     }
+
 ]
