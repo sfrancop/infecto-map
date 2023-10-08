@@ -1,0 +1,66 @@
+.inicio-contenedor{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/fondo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFB5;
+    text-align: center;
+}
+
+.inicio-titulo{
+    width: 400px;
+}
+
+.inicio-botones{
+    position: absolute;
+    bottom: 100px;
+    margin: 0 22rem;
+    margin-top: 10r;
+}
+
+.inicio-botones-aprender{
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 40px;
+    background-color: #c5c5c5;
+    width: fit-content;
+    padding: 10px 30px;
+    border: 2px black solid;
+}
+
+.inicio-botones-aprender:hover{
+    background-color: #dfdfdf;
+}
+
+.inicio-botones-desarrolladores{
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 15px;
+    background-color: #c5c5c5;
+    width: fit-content;
+    padding: 10px 30px;
+    border: 2px black solid; 
+}
+
+.inicio-botones-desarrolladores:hover{
+    background-color: #dfdfdf;
+}
+
+.inicio-comoaprender{
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #c5c5c5;
+    width: fit-content;
+    padding: 10px 30px;
+    border: 2px black solid; 
+    margin: 16rem 0 0 .5rem;
+}
+
+.inicio-comoaprender:hover{
+    background-color: #dfdfdf;
+}
